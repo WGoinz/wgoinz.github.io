@@ -1,14 +1,22 @@
+/* Added standard body styles */
+
+html {
+    background-color: white;
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     margin: 0 auto;
     min-height: 100vh;
-    width: 800px;
+    width: 1100px;
     background-color: lightblue;
-    padding: 0px;
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* Styles for h1 tag */
 
 h1 {
     text-align: center;
@@ -17,20 +25,29 @@ h1 {
     background-color: azure;
     padding: 15px;
     font-family: 'Sedgwick Ave', cursive;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     border: solid black 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
 }
 
+#links {
+    margin: 0;
+}
+
+/* Styles for a tag and hover state */
+
 a {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: black;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 a:hover {
-    color: lightblue;
-    font-size: 40px;
-    background: black;
+    color: white;
+    font-size: 15px;
+    /* background: black; */
+    padding: 5px;
 }
 
 /* main {
@@ -44,24 +61,31 @@ main p {
     padding: 10px;
     border: solid black 2px;
     border-radius: 10px;
-    line-height: 25px;
+    line-height: 30px;
 }
+
+/* Shared styles for footer and header */
 
 footer, header {
     width: 100%;
     /* background: black; */
 }
 
+/* Styles for nav container and its elements */
+
 .nav-container {
     display: flex;
     margin-top: 5px;
+    margin-bottom: 10px;
     flex-direction: column;
     align-items: center;
 }
 
-.nav-container section {
+/* .nav-container section {
     margin: 10px;
-}
+} */
+
+/* Adjusts image size to look appropriate */
 
 #picture img {
     width: 300px;
@@ -72,9 +96,7 @@ footer, header {
     background-color: azure;
 }
 
-#links {
-    display: flex;
-}
+/* Setup ul and li elements */
 
 .about {
     display: flex;
@@ -84,12 +106,13 @@ footer, header {
 
 .about li {
     padding: 10px 10px;
-    font-size: 20px;
-    background-color: azure;
-    border-radius: 10px;
+    /* background-color: azure; */
+    /* border-radius: 10px; */
     margin: 0 10px;
-    border: solid black 2px;
+    /* border: solid black 2px; */
 }
+
+/* flex footer and its div children for side by side */
 
 .flex_footer {
     display: flex;
