@@ -112,11 +112,11 @@ main section {
 }
 
 main p {
-    background-color: #52DEE5;
+    background-color: #BED990;
     padding: 10px;
     /* border: solid black 2px; */
     border-radius: 20px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 /* main p:hover, .flex_footer div:hover {
@@ -193,4 +193,15 @@ img:hover {
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
+}
+
+.about_flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0;
+}
+
+.about_flex * {
+    margin: 5px;
 }
