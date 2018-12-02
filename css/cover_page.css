@@ -1,0 +1,45 @@
+html {
+    background-color: black;
+}
+
+.front_page_flex {
+    margin: 0;
+    padding: 0;
+}
+
+.main_page {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.main_message_text {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+a:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: solid white 3px;
+    /* background: black; */
+    padding: 10px;
+    -webkit-animation: shadow-drop-center .4s cubic-bezier(.25, .46, .45, .94) both;
+    animation: shadow-drop-center .4s cubic-bezier(.25, .46, .45, .94) both
+}
+
+span {
+    color: #BED990;
+}
