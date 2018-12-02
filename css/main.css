@@ -55,7 +55,7 @@ img {
 
 h1 {
     text-align: center;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 600;
     /* background-color: azure; */
     padding: 15px;
@@ -88,7 +88,7 @@ a {
     font-size: 18px;
 }
 
-a:hover {
+.about a:hover {
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -205,6 +205,13 @@ img:hover {
 
 .about_flex * {
     margin: 5px;
+    font-size: 25px;
+    line-height: 75px;
+}
+
+.about_flex a {
+    color: red;
+    style
 }
 
 .section {
