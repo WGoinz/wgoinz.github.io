@@ -16,8 +16,8 @@ body {
 }
 
 img {
-    width: 200px;
-    height: 200px;
+    /* width: 200px; */
+    height: 500px;
     border-radius: 100px;
 }
 
@@ -112,7 +112,7 @@ main section {
 }
 
 main p {
-    background-color: #BED990;
+    /* background-color: #BED990; */
     padding: 10px;
     /* border: solid black 2px; */
     border-radius: 20px;
@@ -160,9 +160,10 @@ footer, header {
 
 /* Opaque hover state for images */
 
+/* 
 img:hover {
     opacity: 0.2;
-}
+} */
 
 /* Setup ul and li elements */
 
@@ -198,10 +199,15 @@ img:hover {
 .about_flex {
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    /* align-items: center; */
     margin: 0;
 }
 
 .about_flex * {
     margin: 5px;
+}
+
+.section {
+    text-align: center;
+    font-size: 3em;
 }
