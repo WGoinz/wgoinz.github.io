@@ -2,5 +2,5 @@
 // https://codepen.io/alvarotrigo/pen/NxyPPp
 
 new fullpage('#fullpage', {
-    sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+    sectionsColor: ['black', 'orange', '#C0C0C0', '#ADD8E6'],
 });
